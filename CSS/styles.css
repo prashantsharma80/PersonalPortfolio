@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: scroll-snap-coordinate 1s;
+}
+
+body {
+    background-color: rgb(9, 9, 30);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}

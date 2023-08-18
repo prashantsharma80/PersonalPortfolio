@@ -1,0 +1,16 @@
+.footer {
+    height: auto;
+    margin-top: 16px;
+    background-color: rgb(10, 10, 74);
+    color: rgb(227, 214, 214);
+    text-align: center;
+}
+
+.footer-container {
+    margin-top: 10px;
+}
+
+.copyrights {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

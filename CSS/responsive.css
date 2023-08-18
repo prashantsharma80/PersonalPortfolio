@@ -1,0 +1,103 @@
+/* Mobile devices */
+@media (max-width: 768px) {
+    nav {
+        display: block;
+        height: auto;
+        text-align: center;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .topSection {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .topSection > div {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .leftSection {
+        max-width: 70%;
+    }
+
+    .rightSection img {
+        width: 100%;
+    }
+    
+    .buttons .btn {
+        margin-bottom: 20px;
+    }
+
+    .aboutText {
+        font-size: 1.2rem;
+    }
+    
+    .lists {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .contact-left div i {
+        margin-right: 4px;
+        font-size: 20px;
+    }
+
+    .footer-second ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+/* Tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+    nav {
+        height: auto;
+        font-size: 14px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav .left {
+        margin-left: 6px;
+    }
+
+    .topSection > div {
+        width: 40%;
+    }
+    
+    .topSection {
+        margin-top: 20px;
+    }
+
+    .rightSection img {
+        width: 80%;
+    }
+    
+    .lists div {
+        font-size: 13px;
+    }
+
+    .container {
+        display: block;
+    }
+    
+    form button {
+        padding: 12px 40px;
+    }
+}
