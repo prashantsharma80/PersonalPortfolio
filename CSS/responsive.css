@@ -1,14 +1,19 @@
 /* Mobile devices */
-@media (max-width: 768px) {
+@media (min-width: 240px) and (max-width: 650px) {
     nav {
-        display: block;
-        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         text-align: center;
     }
 
     nav ul {
-        display: flex;
-        flex-direction: column;
+        display: none;
+    }
+
+    .buttons .btn {
+        padding: 10px;
+        font-size: 14px;
     }
 
     .topSection {
@@ -18,16 +23,16 @@
     }
     
     .topSection > div {
-        width: 90%;
+        width: 70%;
         margin: 0 auto;
     }
 
     .leftSection {
-        max-width: 70%;
+        font-size: 26px;
     }
 
     .rightSection img {
-        width: 100%;
+        width: 92%;
     }
     
     .buttons .btn {
@@ -35,11 +40,103 @@
     }
 
     .aboutText {
-        font-size: 1.2rem;
+        font-size: 18px;
     }
     
     .lists {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .lists div {
+        padding: 28px;
+        font-size: 13px;
+        font-weight: 200;
+    }
+    
+    .lists div i {
+        font-size: 30px;
+        margin-bottom: 18px;
+    }
+    
+    .lists div h2 {
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 12px;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .contact-left div i {
+        margin-right: 4px;
+        font-size: 18px;
+    }
+
+    .contact-left div {
+        font-size: 14px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 650px) and (max-width: 1100px) {
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav .left {
+        margin-left: 6px;
+    }
+
+    .topSection > div {
+        width: 42%;
+    }
+    
+    .topSection {
+        margin-top: 20px;
+        max-width: 97vw;
+    }
+
+    .leftSection {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+
+    .buttons .btn {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .rightSection img {
+        width: 100%;
+    }
+    
+    .aboutText {
+        font-size: 20px;
+    }
+    
+    .lists div {
+        padding: 30px;
+        font-size: 15px;
+        font-weight: 200;
+    }
+    
+    .lists div i {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    
+    .lists div h2 {
+        font-size: 26px;
+        font-weight: 400;
+        margin-bottom: 12px;
     }
 
     .container {
@@ -51,50 +148,8 @@
         font-size: 20px;
     }
 
-    .footer-second ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-    }
-}
-
-/* Tablets */
-@media (min-width: 769px) and (max-width: 1024px) {
-    nav {
-        height: auto;
-        font-size: 14px;
-    }
-
-    nav ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    nav .left {
-        margin-left: 6px;
-    }
-
-    .topSection > div {
-        width: 40%;
-    }
-    
-    .topSection {
-        margin-top: 20px;
-    }
-
-    .rightSection img {
-        width: 80%;
-    }
-    
-    .lists div {
-        font-size: 13px;
-    }
-
-    .container {
-        display: block;
+    .contact-left div {
+        font-size: 16px;
     }
     
     form button {
