@@ -74,12 +74,12 @@
     }
 
     .contact-left div {
-        font-size: 14px;
+        font-size: 13px;
     }
 }
 
 /* Tablets */
-@media (min-width: 650px) and (max-width: 1100px) {
+@media (min-width: 650px) and (max-width: 1150px) {
     nav {
         display: flex;
         justify-content: center;
