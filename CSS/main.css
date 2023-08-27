@@ -160,3 +160,8 @@ form button {
 #msgsent {
     color: gold;
 }
+
+.project-links {
+    color: #ff004f;
+    text-decoration: none;
+}
